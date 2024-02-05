@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "WALL"]
+	url = https://github.com/shitcodebykaushik/GIT01.git
+	fetch = +refs/heads/*:refs/remotes/WALL/*
+[remote "GIT01"]
+	url = https://github.com/shitcodebykaushik/GIT01.git
+	fetch = +refs/heads/*:refs/remotes/GIT01/*
